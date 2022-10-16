@@ -1,7 +1,7 @@
 .error {
 	width:100%;
 	min-height:75vh;
-	background: no-repeat fixed url(https://www.google.com/url?sa=i&url=https%3A%2F%2Flearn.getgrav.org%2F17%2Ftroubleshooting%2Fpage-not-found&psig=AOvVaw1Fr0XbqMUSid9YW0-w1JjT&ust=1666043500870000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJC33und5foCFQAAAAAdAAAAABAE) center / cover; /* from Unsplash */
+	background: no-repeat fixed url(https://i.imgur.com/Ft4pxAa.jpg) center / cover; /* from Unsplash */
 	margin-top:50px;
 	
 	/* This is what centers it */
@@ -16,8 +16,6 @@
 	font-weight: 900;
 	font-size: 15vmin;
 	text-align: center;
-	font-size: 15vmin; /* If you want to be extra-fancy */
 	line-height: 110%;
-	text-shadow: 0.05em 0.05em 0.1em #000;
 	text-shadow: 0 0.025em 0.05em rgba(0,0,0,0.75), 0 0.05em 0.1em rgba(0,0,0,0.5);
 }
