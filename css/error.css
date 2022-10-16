@@ -1,7 +1,7 @@
 .error {
 	width:100%;
 	min-height:75vh;
-	background: no-repeat fixed url(https://i.imgur.com/Ft4pxAa.jpg) center / cover; /* from Unsplash */
+	background: no-repeat fixed url(https://www.google.com/url?sa=i&url=https%3A%2F%2Flearn.getgrav.org%2F17%2Ftroubleshooting%2Fpage-not-found&psig=AOvVaw1Fr0XbqMUSid9YW0-w1JjT&ust=1666043500870000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJC33und5foCFQAAAAAdAAAAABAE) center / cover; /* from Unsplash */
 	margin-top:50px;
 	
 	/* This is what centers it */
