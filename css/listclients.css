@@ -1,0 +1,25 @@
+.main {
+    border: 1px solid #ddd;
+}
+#searchbox {
+    position: relative;
+    float: left;
+    top: -135px;
+    left: -180px;
+    width: 165px;
+}
+div#example_filter > label input {
+    display: block;
+    position: relative;
+    top: -20px;
+    width: 100%;
+}
+div#example_filter > label {
+    display: block;
+    width: 100%;
+}
+#addNewClient {
+    margin-top: 15px;
+    background-color: #f89828;
+    border-color: #b46406;
+}
