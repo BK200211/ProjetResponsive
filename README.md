@@ -58,6 +58,8 @@ avec les différents référents.
 
 Dernièrement la page Analytique sera basée sur des divers graphiques et métriques sur les ventes et les dossiers de l'agence.
 
+Pour les pages qui pas encore construite vous allez recevoir le message:
+"Pour l'instant la page est inaccessible!!!"
 
 Merci beaucoup pour le temps que vous nous avez attribué pour lire notre description.
 Bonne journée!!
