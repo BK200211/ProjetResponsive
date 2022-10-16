@@ -16,7 +16,7 @@
     <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
     <meta name="author" content="Łukasz Holeczek">
     <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
-    <link rel="stylesheet" href="css/calendar.css" media="screen" />
+    <link rel="stylesheet" href="css/contact.css" media="screen" />
     <title>Tableau de tâche</title>
     <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
@@ -92,7 +92,7 @@
                 <svg class="nav-icon">
                   <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-chart-pie"></use>
                 </svg> Mes ventes</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">
+                            <li class="nav-item"><a class="nav-link" href="charts.html">
               <svg class="nav-icon">
                 <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-chart-pie"></use>
               </svg> Centre de contact</a></li>
@@ -201,8 +201,50 @@
         </div>
       </header>
       <div class="body flex-grow-1 px-3">
-        <div id='calendar'></div>
-    </div>
+        <div class="contain">
+
+            <div class="wrapper">
+          
+              <div class="form">
+                <h2 class="form-headline">Contactez-nous</h2>
+                <form id="submit-form" action="">
+                  <p>
+                    <input id="name" class="form-input" type="text" placeholder="Votre Nom*">
+                    <small class="name-error"></small>
+                  </p>
+                  <p>
+                    <input id="email" class="form-input" type="email" placeholder="Votre Mail*">
+                    <small class="name-error"></small>
+                  </p>
+                  <p class="full-width">
+                    <input id="company-name" class="form-input" type="text" placeholder="Numéro de Téléphone*" required>
+                    <small></small>
+                  </p>
+                  <p class="full-width">
+                    <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Votre Message*" required></textarea>
+                    <small></small>
+                  </p>
+                  <p class="full-width">
+                    <input type="checkbox" id="checkbox" name="checkbox" checked> Oui, je souhaite recevoir des communications par téléphone ou par courriel sur les services de la société.
+                  </p>
+                  <p class="full-width">
+                    <input type="submit" class="submit-btn" value="Envoyer" onclick="checkValidations()">
+                    <button class="reset-btn" onclick="reset()">Effacer</button>
+                  </p>
+                </form>
+              </div>
+          
+              <div class="contacts contact-wrapper">
+          
+                <ul>
+                  <span class="hightlight-contact-info">
+                    <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> bkmobilier.com</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+33 25 1941 1572</span></li>
+                  </span>
+                </ul>
+              </div>
+            </div>
+          </div>    </div>
       <footer class="footer">
         <div><a href="https://coreui.io">CoreUI </a><a href="https://coreui.io">Bootstrap Admin Template</a> © 2022 creativeLabs.</div>
         <div class="ms-auto">Powered by&nbsp;<a href="https://coreui.io/docs/">CoreUI UI Components</a></div>
@@ -216,7 +258,7 @@
     <script src="vendors/@coreui/chartjs/js/coreui-chartjs.js"></script>
     <script src="vendors/@coreui/utils/js/coreui-utils.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/calendar.js"></script>
+    <script src="js/contact.js"></script>
     <script>
     </script>
 
