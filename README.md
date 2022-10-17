@@ -45,7 +45,7 @@ La troisième page que nous possédons est la page Base Annonces qui aura la mê
 ouverte vers le grand public, car tout le monde pourra déposer des annonces pour vendre ses maisons ou appartements.
 
 Maintenant pour la page de Chat et appels vous avez la possibilité de nous contacter pendant nos horaires d'ouverture et si
-vous nous envoyez un message pendant les horraires de fermeture nous allons vous répondre le lendemain.
+vous nous envoyez un message pendant les horaires de fermeture nous allons vous répondre le lendemain.
 
 Pour la page Calendrier vous avez en disponibilité notre calendrier pour mieux savoir quand nous serons exceptionnellement
 fermés et chaque fois qu'il a un événement créé spécialement pour notre personnel.
@@ -58,7 +58,7 @@ avec les différents référents.
 
 Dernièrement la page Analytique sera basée sur des divers graphiques et métriques sur les ventes et les dossiers de l'agence.
 
-Pour les pages qui pas encore construite vous allez recevoir le message:
+Pour les pages qui ne sont pas encore construites vous allez recevoir le message:
 "Pour l'instant la page est inaccessible!!!"
 
 Merci beaucoup pour le temps que vous nous avez attribué pour lire notre description.
